@@ -1,0 +1,108 @@
+.podcasts {
+  background-color: var(--color-concentrate);
+}
+
+.podcasts__container {
+  padding-top: 95px;
+  padding-bottom: 94px;
+}
+
+.podcasts__title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.podcasts__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  gap: var(--gap-base);
+}
+
+.podcasts__entity {
+  position: relative;
+  width: calc((100% - var(--gap-base)) / 2);
+  height: 140px;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 142px;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.time-wrap {
+  margin-bottom: 9px;
+}
+
+.podcasts__time {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.podcasts__subtitle {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.podcasts__author {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--color-gray-chateau);
+}
+
+.podcasts__date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 51px;
+  height: 16px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  background-color: var(--color-concentrate);
+}
+
+.podcasts__entity_one {
+  background-image: url("../img/03_podcasts/podcasts_base_1.jpg");
+}
+
+.podcasts__entity_two {
+  background-image: url("../img/03_podcasts/podcasts_base_2.jpg");
+}
+
+.podcasts__entity_three {
+  background-image: url("../img/03_podcasts/podcasts_base_3.jpg");
+}
+
+.podcasts__entity_four {
+  background-image: url("../img/03_podcasts/podcasts_base_4.jpg");
+}
+
+.podcasts__entity_five {
+  background-image: url("../img/03_podcasts/podcasts_base_5.jpg");
+}
+
+.podcasts__entity_six {
+  background-image: url("../img/03_podcasts/podcasts_base_6.jpg");
+}
+
+.podcasts__entity_seven {
+  background-image: url("../img/03_podcasts/podcasts_base_7.jpg");
+}
+
+.podcasts__entity_eight {
+  background-image: url("../img/03_podcasts/podcasts_base_8.jpg");
+}

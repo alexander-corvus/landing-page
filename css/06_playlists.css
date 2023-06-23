@@ -1,0 +1,118 @@
+.playlists {
+  padding-top: 95px;
+  padding-bottom: 94px;
+  background-color: var(--color-white);
+}
+
+.playlists__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  gap: var(--gap-base);
+}
+
+.playlists__beginning {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 350px;
+}
+
+.playlists__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.playlists__warning {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-gray-chateau);
+}
+
+.playlists__copy {
+  margin: 0;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 22px;
+  color: var(--color-gray-chateau);
+}
+
+.playlists__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 13px;
+
+  -webkit-column-gap: var(--gap-base);
+     -moz-column-gap: var(--gap-base);
+          column-gap: var(--gap-base);
+  row-gap: 30px;
+}
+
+.playlists__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  max-width: 160px;
+}
+
+.playlists__flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 20px;
+}
+
+.playlists__flag_gb {
+  background-image: url("../img/06_playlists/great_britain.jpg");
+}
+
+.playlists__flag_rus {
+  background-image: url("../img/06_playlists/rus.jpg");
+}
+
+/* .playlists__cover {
+  width: 160px;
+  height: 160px;
+} */
+
+.playlists__data {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  outline: 1px solid var(--color-athens-gray);
+}
+
+.playlists__subtitle {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.playlists__descr {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--color-gray-chateau);
+}
